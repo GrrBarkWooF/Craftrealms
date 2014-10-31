@@ -5,43 +5,43 @@ author: Konato_K Grrbarkwoof
 description: Manages bans
 
 commands:
-	ban:
-		description: Bans a player permanently across all servers
-		usage: /ban <player>
-		permission: cakemanager.ban
-		permission-message: You may not use this command!
-	tempban:
-		description: Temporarily bans a player across all servers.
-		usage: /tempban <player> <time> <reason>
-		permission: cakemanager.tempban
-		permission-message: You may not use this command!
-	tempmute:
-		description: Temporarily mutes a player.
-		usage: /tempmute <player> <time> <reason>
-		permission: cakemanager.tempmute
-		permission-message: You may not use this command!
-	mute:
-		description: Permanently mutes a player.
-		usage: /mute <player> <reason>
-		permission: cakemanager.mute
-		permission-message: You may not use this command!
-	suspend:
-		description: Bans someone on the server you are on
-		usage: /suspend <player> <Time> <reason>
-		permission: cakemanager.suspend
-		permission-message: You may not use this command!
-	kick:
-		description: Kicks a player from the server.
-		usage: /kick <player> <reason>
-		permission: cakemanager.kick
-		permission-message: You may not use this command!
-	CMInfo
-	  description: Gets info for a player
-	  usage: /cminfo <player>
-	  permission: cakemanager.info
-	  permission-message: You may not use this command!
-	warn:
-	  description: Warns a player
-	  usage: /warn <player> <reason>
-	  permission: cakemanager.warn
-	  permission-message: You may not use this command!
+  ban:
+    description: Bans a player permanently across all servers
+    usage: /ban <player>
+    permission: cakemanager.ban
+    permission-message: You may not use this command!
+  tempban:
+    description: Temporarily bans a player across all servers.
+    usage: /tempban <player> <time> <reason>
+    permission: cakemanager.tempban
+    permission-message: You may not use this command!
+  tempmute:
+    description: Temporarily mutes a player.
+    usage: /tempmute <player> <time> <reason>
+    permission: cakemanager.tempmute
+    permission-message: You may not use this command!
+  mute:
+    description: Permanently mutes a player.
+    usage: /mute <player> <reason>
+    permission: cakemanager.mute
+    permission-message: You may not use this command!
+  suspend:
+    description: Bans someone on the server you are on
+    usage: /suspend <player> <Time> <reason>
+    permission: cakemanager.suspend
+    permission-message: You may not use this command!
+  kick:
+    description: Kicks a player from the server.
+    usage: /kick <player> <reason>
+    permission: cakemanager.kick
+    permission-message: You may not use this command!
+  cminfo:
+    description: Gets info for a player
+    usage: /cminfo <player>
+    permission: cakemanager.info
+    permission-message: You may not use this command!
+  warn:
+    description: Warns a player
+    usage: /warn <player> <reason>
+    permission: cakemanager.warn
+    permission-message: You may not use this command!
