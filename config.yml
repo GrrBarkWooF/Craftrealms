@@ -1,0 +1,25 @@
+server-name: Unknown
+bukkit-ban: false
+messages:
+  ban: '&4%sender% &6bans &4%player% &6for &4%reason%'
+  tempban: '&4%sender% &6tempbans &4%player% &6for &4%reason% &6for &4[expires]'
+  mute: '&4%sender% &6mutes &4%player% &6for &4%reason%'
+  tempmute: '&4%sender% &6tempmutes &4%player% &6for &4%reason% &6for &4[expires]'
+  suspend: '&4%sender% &6suspends &4%player% &6for &4%reason% &6for &4[expires]'
+  kick: '&4%sender% &6kicks &4%player% &6for &4%reason%'
+  warn: '&4%sender% &6warns &4%player% &6for &4%reason%'
+database:
+  info:
+    hostname: localhost
+    port: 3306
+    username: root
+    password: password
+    database: database
+  tables:
+    ban-table: cm_bans
+    tempban-table: cm_tempbans
+    mute-table: cm_mutes
+    tempmute-table: cm_tempmutes
+    suspend-table: cm_suspends
+    kick-table: cm_kicks
+    warn-tble: cm_warns

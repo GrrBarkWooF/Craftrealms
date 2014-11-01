@@ -1,7 +1,7 @@
 name: CakeManager
 main: com.gmail.grrbarkwoof.cakemanager.CakeManager
 version: 1.0
-author: Konato_K Grrbarkwoof
+authors: [Konato_K, Grrbarkwoof]
 description: Manages bans
 
 commands:
@@ -27,7 +27,7 @@ commands:
     permission-message: You may not use this command!
   suspend:
     description: Bans someone on the server you are on
-    usage: /suspend <player> <Time> <reason>
+    usage: /suspend <player> <time> <reason>
     permission: cakemanager.suspend
     permission-message: You may not use this command!
   kick:
